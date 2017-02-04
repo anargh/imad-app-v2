@@ -21,5 +21,5 @@ var count = 0;
 btncount.onClick = function() {
     count=count+1;
     var displayCount = document.getElementById("count");
-    displayCount.innerHTML=count.toString();
+    displayCount.innerHTML = count.toString();
 };
