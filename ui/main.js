@@ -16,8 +16,9 @@ img.onClick = function() {
     var interval = setInterval(moveRight, 40);
 };
 
-var btncount=document.getElementById("btn-count");
-var count = 0;
+var btncount=document.getElementById("btn-count"); // Get button
+var count = 0; // Intialize counter value
+
 btncount.onClick = function() {
     count=count+1;
     var displayCount = document.getElementById("count");
