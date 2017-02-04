@@ -30,7 +30,7 @@ function showContent(data) {
     var content=data.content;
     var htmltemplate = `
     <html>
-        <title> ${title}
+        <title> ${title} </title>
         <meta name="viewport" content="width=device-width ,initial-scale=1"/>
         <body>
             <div class="container">
