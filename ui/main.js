@@ -13,7 +13,8 @@ function moveRight() {
     img.style.marginLeft = marginLeft + "px";
 }
 img.onclick = function() {
-    var interval = setInterval(moveRight, 40);
+    // var interval = setInterval(moveRight, 40);
+    img.style.marginLeft = '100px';
 };
 
 var btncount=document.getElementById("btn-count"); // Get button
