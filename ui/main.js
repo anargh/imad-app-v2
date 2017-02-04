@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 var element = document.getElementById('main-text');
 
-element.innerHTML('Click on the image!');
+element.innerHTML='Click on the image!';
 
 
 var img = document.getElementById('madi');
