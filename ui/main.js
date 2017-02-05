@@ -7,10 +7,10 @@ element.innerHTML='Click on the image!';
 
 var img = document.getElementById('madi');
 
-var marginLeft = 0;
+var margin = 0;
 function moveRight() {
-    var marginLeft = marginLeft + 2;
-    img.style.marginLeft = marginLeft + 'px';
+    margin = margin + 2;
+    img.style.marginLeft = margin + 'px';
 }
 img.onclick = function() {
     var interval = setInterval(moveRight, 100);
