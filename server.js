@@ -60,7 +60,7 @@ app.get('/:articleName', function(req, res) {
     res.send(showContent(articles[articleName]));
 });
 
-app.get('/template', function(req, res){
+app.get('/template', function(req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'template.html'));
 });
 
